@@ -1,0 +1,59 @@
+body {
+  font-family: editorial;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@font-face {
+  font-family: editorial;
+  src: url('PPEditorialNew-Regular.otf');
+}
+
+.container {
+  text-align: center;
+}
+
+.custom-size {
+  width: 750px; /* Adjust the width as needed */
+  height: 450px; /* Adjust the height as needed */
+}
+.yellowtale-text {
+  text-align: center;
+  position: absolute;
+  font-size: 80px; /* Adjust the font size as needed */
+  left: 0;
+  right: 0;
+}
+.main-label {
+  padding: 10px;
+  margin: 20px;
+  /* background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTYnIGhlaWdodD0nMTYnIHZpZXdCb3g9JzAgMCAxNiAxNicgZmlsbD0nbm9uZScgLz4=');
+  pointer-events: none; */
+}
+#yellowtale {
+  font-size: 60px; /* Example font size */
+  /* Additional styles */
+}
+#flavor {
+  font-size: 30px; /* Example font size */
+  /* Additional styles */
+}
+.style-svg{
+  width: 33%;
+  transform: translateY(-1%);
+  padding-top: 1%;
+  transform: translateX(-10%);
+}
+.alc-svg{
+  width: 40%;
+  transform: translateY(-12%);
+  transform: translateX(5%);
+}
+.type-svg{
+  /* width: 30%; */
+  width: 27%;
+  transform: translateY(-10%);
+  transform: translateX(-10%);
+}
